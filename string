@@ -1,0 +1,120 @@
+#print len
+'''s="my name is vaishnavi"
+print(len(s))
+#lower()
+s="MY NAME IS VAISHNAVI"
+s=s.lower()
+print(s)
+#upper
+s="my name is vaishu"
+s=s.upper()
+print(s)
+#capitalize
+s="my name is vaishnavi"
+print(s.capitalize())
+#title
+s="my name is vaishnavi"
+print(s.title())
+#replace
+s="my name is vaishnavi"
+print(s.replace("i","y")
+s="my name is vaishnavi"
+s=s.count("i")
+print(s)
+#startwith
+s="my name is vaishnavi"
+s=s.startswith("my")
+print(s)
+#endwith
+s="my name is vaishnavi"
+s=s.endswith("vaishnavi")
+print(s)
+#find
+s="my name is vaishnavi"
+s=s.find("vaish")
+print(s)
+#index
+s="my name is vaishavi"
+s=s.index("name")
+print(s)
+#slicing
+s='my name is vaishnavi'
+s=s[::-1]
+print(s)
+#strip
+s="            vaishnu           "
+s=s.strip()
+print(s)
+#split
+s="vaishu"
+s=s.split("a")
+print(s)
+#join
+words = ["my", "name", "is", "vaishnavi"]
+s = "****".join(words)
+print(s)
+print(s.replace(".","[.]")
+s=["1.1.1.1.1"]
+ans=""
+for i in s:
+    if i!=".":
+        ans+=i
+    else:
+        ans+="[.]"
+    print(ans) 
+    
+s="ashwini"
+print(s[::-1])
+#without using in built reverse string
+s="vaishnavi"
+rev=""
+i=len(s)-1
+while i>=0:
+     rev=rev+s[i]
+     i-=1
+print(rev)
+
+s="vaishnavi"
+i=0
+j=len(s)-1
+if s[i]==s[j]:
+    print("palindrum")
+else:
+    print("not pallindrum")
+#vowel hai ka nahi
+s="vaishnavi"
+for ch in s:
+    if ch in "aeiou":
+     print(ch,"=""vowel")
+    else:
+        print(ch,"=""not vowel")
+        
+        
+s=(input("enter a string:"))
+count=1
+for ch  in s:
+    if ch ==" ":
+     count+=1
+print(count)
+a="this is string"
+list=(a.split())
+print(list)
+a="-".join(list)
+print(a)'''
+
+    def print_formatted(number):
+    width = len(bin(number)[2:])
+
+    for i in range(1, number + 1):
+        print(
+            str(i).rjust(width),
+            oct(i)[2:].rjust(width),
+            hex(i)[2:].upper().rjust(width),
+            bin(i)[2:].rjust(width)
+        )
+
+if __name__ == '__main__':
+    n = int(input())
+    print_formatted(n)
+
+    
