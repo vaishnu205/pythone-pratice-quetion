@@ -1,0 +1,132 @@
+''''class Student:
+    pass
+s1=Student()
+s2=Student()
+print(s1)
+print(s2)
+#can class have multiple object
+#yes
+class Demo:
+    pass
+a=Demo()
+b=Demo()
+c=Demo()
+print(a,b,c)
+# what is self Why it is used?
+#self current object la refer karto
+class Test:
+    def set(self,x):
+     self.x=x
+    def show(self):
+        print(self.x)
+t=Test()
+t.set(10)
+t.show()
+#self is keyword
+#no self is not keyword,convention hai
+class Demo:
+    def show(me):
+        print("hello")
+obj=Demo()
+obj.show
+# what is constructor
+#constructor call automatically when object creates
+class Demo:
+    def __init__(self):
+        print("constructor called")
+obj=Demo()
+#is the constructor complulsory
+#constructor nasta na hi object create hoto
+class Demo:
+    pass
+obj=Demo()
+print("object created")
+#can constructor return value
+#no
+class Demo:
+    def __init__(self):
+        return 10
+#how many constructor  allows in code in python
+#only one #last cha pass zal
+class Demo:
+    def __init__(self):
+     print("First")
+    def __init_(self):
+        print("secound")
+#instance variable vs class varible
+#objec ke liye alag alag value and inside the init ,sab object ke liye same value but outside the init
+class Student:
+    collage="sppu" #class variable
+    def __init__(self,name):
+        self.name=name #instance variable
+s1=Student("A")
+s2=Student("B")
+print(s1.name,s1.collage)
+print(s2.name,s2.collage)
+#can we access instance variable without object
+#no cant access 
+
+#can ve acesss variable using object
+#yes
+class Demo:
+    x=10
+obje=Demo()
+print(obje.x)
+#what happen if class variable change useing object
+class Demo:
+    x=10   #class variable
+    a=Demo()
+    b=Demo()#object kade swtha x nahi class cha use karel x
+a.x=20 #object craets own instance variable when assign
+print(a.x)#a object madhe x shodhato milala 20 class la jatacha nahi
+print(b.x)#x nahi class madhe jato
+print(Demo.x)#dirsect class variable acess karto
+#instant methods
+#object related aste,self parameter lagat,instant variable access karto
+class Student:
+    def set(self,name):
+        self.name=name
+    def show(self):
+        print(self.name)
+s=Student
+s.set("ram")
+s.show()    
+#class methods
+class A:
+    collage="Sppu"
+    @classmethod
+    def show_collage(cls):
+      print(cls.collage)
+      
+#static Method
+class Demo:
+    @staticmethod
+    def show():
+        print("this is static method")
+        Demo.show()
+class Math:
+    def __init__(self,a,b):
+          self. a=a 
+          self.b=b
+    def display(self):
+        print(self.a)
+        print(self.b)
+s=Math(54,97)
+s.display()'''
+
+class Student:
+    def __init__ (self,name,marks):
+        self.name=name
+        self.marks=marks
+    @staticmethod
+    def hello():
+        print("hello")
+    def get_avg(self):
+        sum=0
+        for val in self.marks:
+            sum+=val
+        print("hi",self.name,"your name is:")
+        s1=Student("tony stark",[99,98,97])
+        s1.get_avg()
+        s1.hello()
+        
