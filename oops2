@@ -1,0 +1,80 @@
+#default constructor
+'''class Demo:
+    def __init__(self):
+        print("default constructor")
+d1=Demo()
+#parametrise constructor INSTANCE VARIABLE USE KARUN ACESS KELL 
+class Student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+s1=Student("vaishnavi",22)
+print(s1.name,s1.age)
+#PARAMETRISE CONSTRUCTOR USING methos
+class Student:
+    def __init__(self,name,age,sub):
+        self.name=name
+        self.age=age
+        self.sub=sub
+    def show(self):
+        print(self.name,self.age,self.sub)
+s2=Student("vaishnavi",34,"math")
+s2.show()
+s2=Student("arti",32,"science")
+s2.show()
+# getter methode use karun karan PRIVATE VARIABLE DIRECT ACCESS NAHI KARTAT BAR KA
+class Demo:
+    def __init__(self,name,marks):
+        self.name=name
+        self.__marks=marks
+    def get_marks(self):
+        return self.__marks
+D1=Demo("uri",45)
+print(D1.get_marks())
+#setter methods use karun VALUE CHANGE KARNE
+class Demo:
+    def __init__(self,marks):
+        self.__marks=marks
+    def set_marks(self,m):
+        self.__marks=m
+    def get_marks(self):
+        return self.__marks
+d1=Demo(34)
+d1.set_marks(97)
+print(d1.get_marks())
+#multiple valude in constructor
+class Demo:
+    def __init__(self,a=0,b=0,c=0):
+        self.a=a
+        self.b=b
+        self.c=c
+d1=Demo()
+d4=Demo(2)
+d2=Demo(2,3)
+d3=Demo(3,4,5)
+print(d1.a, d1.b, d1.c)
+print(d4.a, d4.b, d4.c)
+print(d2.a, d2.b, d2.c)
+print(d3.a, d3.b, d3.c)
+#class attributes
+class Student:
+    collage="sppu"
+    def __init__(self,name):
+      self.name=name
+s1=Student("amit")
+s2=Student("ketan")
+print(s1.collage)
+print(s2.name)'''
+#instance Attributes
+class Student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+s1=Student("amit",33)
+s2=Student("ketan",56)
+print(s1.name,s1.age)
+print(s2.name,s2.age)
+s1.age=22
+print(s1.age)
+print(Student(s1,"name"))
