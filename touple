@@ -1,0 +1,24 @@
+#touple look like
+'''t1=(1,2,3)
+print(t1)'''
+#single element in touple
+'''t1=(5,)
+print(t1)'''
+#element accesss
+'''t=(10,20,30)
+print(t[0])'''
+#touple loop
+'''t=(10,20,30,40)
+for i in t:
+    print(i,end=' ')'''
+# touple un packing
+'''t=(10,20)
+a,b=t
+print(a)
+print(b)'''
+#method
+'''t=(10,20,30,40,50)
+print(t.count(20))
+print(t.index(40))'''
+#touple to list
+t=(10,20,30,40)
