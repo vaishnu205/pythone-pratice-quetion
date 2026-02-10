@@ -1,0 +1,33 @@
+'''def fun():
+    print("fun")
+print("before fun")
+fun()
+fun()
+print("after fun")
+#passing parameter
+def print_date(d,m,y):
+    print(d,m,y,sep="-")
+print("india is indenpendent")
+print("15" "08" "1967")
+#returning value
+def getdata(d,m,y):
+    return  d+ "_" +m + "_" + y 
+print("india is indenpendent")
+a=getdata('13','6','1972')
+print(a)
+def fun(a,b):
+    return a+b
+g=fun(7,8)
+print(g)
+#postional argument
+def fun(a,b,c):
+    print(a+b+c)
+fun(12,45,5)
+print(2,4,5)
+print(7)
+#keyword argument
+def fun(a,b,c):
+    print(a+b+c)
+fun(3,c=6,b=8)'''
+#variable lenght argument
+
