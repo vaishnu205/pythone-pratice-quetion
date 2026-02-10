@@ -1,0 +1,63 @@
+'''dct={"ashish":1,"ankit":2,"ram":3,"sham":4,"karan":5}
+#aescc the elemt from dictionary
+print(dct)
+print(dct["ankit"])
+print(dct.get("sham"))'''
+#adding/updateNew Elemt 
+'''dct["ankit"]="vaishu"
+print (dct)
+#delet the value
+del dct["karan"]
+print(dct)
+#clear all dictionary
+dct.clear()
+print(dct)
+#acess keys and value
+print(dct.keys())
+print(dct.values())
+#print dic using loop
+#1
+for k in dct.keys():
+      print(k,dct[k])
+#2
+print(dct.items())
+#3
+for k,v in dct.items():
+      print(k,v)
+#keys present or not in dct
+print("ram" in dct)
+#update holl dictionary
+dct_1={1:"r",2:"e",3:"f"}
+dct_2={1:"ram",2:"sham",3:"gita"}
+dct_1 .update(dct_2)
+print(dct_1)'''
+
+'''dct={1:{"name":"vaishnavi","phone":2345678},
+     2:{"name":"akshnada","phone":5678930},
+     3:{"name":"ratana","phone":25613210},
+     4:{"name":"rakhi","phone":8906543}}
+#acess elemet
+print(dct[3]["name"])
+#update the elemt
+dct[3]["name"]="arti"
+print(dct)
+#delete
+del dct[4]
+print(dct)
+ #print loop using loops
+for i in dct.keys():
+      print(i,dct[i]["name"],",",dct[i]["phone"])
+dct={i:i**2 for i in range(1,6) }
+print(dct)
+dct1={i:i**2 for i in range (1,6)if i%2==0}
+print(dct1)
+#dictiobary
+lst=["apple","mango","grapes","monkey"]
+dct={item:len(item) for item in lst}
+print(dct)'''
+#count frequency of elemnt
+s="apple"
+dct}
+
+print(len(s))
+
