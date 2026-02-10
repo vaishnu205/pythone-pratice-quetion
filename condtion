@@ -1,0 +1,53 @@
+'''a=int(input('enter a radius:'))
+if(a>0):
+     print("a is positive",a)
+elif(a==0):
+     print("a is equal to zero")
+else:
+     print("a is negative",a)'''
+     #max of 2 number
+'''a=int(input("enter a number:"))
+b=int(input("enter a b number:"))
+if(a>b):
+     print("a is greter than b")
+elif(b>a):
+     print("b is greter than a")
+else:
+     print("neither greater nor less")'''
+     #greter 3 number
+'''a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input('enter c:'))
+if (a>b) and (a>c):
+     print("a is greter")
+elif(b>c) and (b>a):
+     print("b is greater")
+else :
+     print('z is greater')'''
+#even or odd
+'''a=int(input("entr a no:"))
+if(a%2==0):
+     print("number is even")
+else:
+     print("number is odd")'''
+'''a=int(input("enter a:"))
+if(a%2==0) and (a%5==0):
+     print("even divible by 5")
+elif(a%2==0):
+     print("odd and not divisible by 5")
+elif(a%2!=0) and (a%5==0):
+     print("odd divisble by 5")
+else:
+     ("odd but not divisible by s")'''
+'''y=int(input("enter leap year:"))
+if(y%400==0):
+     print("leap")
+elif(y%100!=0) and (y%4==0):
+     print("leap")
+     
+else:
+     print("it is not leap year")'''
+t1=11,22,33,44,66,88
+l=len(t1)
+while(t1<l):
+     print(l)
