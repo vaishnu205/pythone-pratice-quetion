@@ -1,0 +1,80 @@
+#indexing
+'''a=[10,20,40,56,78]
+print(a[4])'''
+#slicing
+'''a=[1,2,3,4,5,6]
+print(a[1:4:-4])'''
+#add
+'''a=[12,3,4,22,45,12,33,54]
+b=a.copy()
+print(b)'''
+#even element print in list
+'''a=[12,3,4,22,45,12,33,54]
+for i in a:
+    
+    if (i%2==0):
+        print(i,end=" ")
+   
+print()'''
+#last element remove
+'''a = [10, 20, 30, 40]
+a = a[:-1]
+print(a)'''
+#middle elemnt find
+'''a=10,20,30,40,50
+count=0
+for i in a:
+    count+=1
+mid=count//2
+print(mid,count)'''
+#max element
+'''a=[20,10,33,22,31,99,77]
+min=a[0]
+for i in a:
+    if(min > i):
+        min=i
+        
+print("min=",min) '''
+#merge two list
+'''a=[10,20,30]
+b=[80,60,50]
+a.extend(b)
+print(a)'''
+#duplicate element
+'''a=[20,10,40,70,50,10]
+dup=0
+for i in a:
+    if(dup==i):
+        dup=i
+print(i)   '''
+'''a=[10,30,20,3,5,7,8,2,0,37]
+b=[]
+for i in a:
+    if(i%2==0):
+      b.append(i)
+print(b) '''
+#odd number
+'''a=[10,30,20,3,5,7,8,2,0,37]
+b=[]
+for i in a:
+    if(i%2!=0):
+      b.append(i)
+print(b) '''
+#sum of numbet
+'''a=[10,30,20,3,5,7,8,2,0,37]
+sum=0
+for i in a:
+     sum=sum+i
+print(sum) '''
+#secound largest number
+'''a=[10,30,20,3,5,7,8,2,0,37]
+max=0
+smax=0
+for i in a:
+    if(max<i):
+     smax=max
+     max=i
+    elif(smax<i and i != max):
+        smax=i
+print(smax)'''
+
